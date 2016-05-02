@@ -10,7 +10,7 @@ import UIKit
 import CoreLocation
 import GoogleMaps
 
-class ViewController: UIViewController , CLLocationManagerDelegate{
+class MapViewController: UIViewController , CLLocationManagerDelegate{
 
     var locaionManager : CLLocationManager!
     let priceLocation  : CLLocation = CLLocation(latitude: 49.273450, longitude: -123.103619)
